@@ -6,7 +6,9 @@
 	3. Run sequences through ESM2 and output into "Embeddings" directory
 	4. For each of ESM2 33 layers, train a linear regression model using the corresponding embedding layer to try and predict the melting temperature
 	5. Plot results from each of the 33 layers; using Root mean squared error as the y axis and the layer as the x axis
-- *Results.png*: Output from *model.py*
 
 *helper.py*:
 - Contains all of the helper methods used in this research
+
+*Results.png*: 
+- Output from *model.py*
